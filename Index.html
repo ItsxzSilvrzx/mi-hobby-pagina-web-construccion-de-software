@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Bio & Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo">MI HOBBY FAVORITO EL GAMING</span>
+            <ul class="nav-links">
+                <li><a href="#about">01 · Bio</a></li>
+                <li><a href="#games">02 · Juegos</a></li>
+                <li><a href="#tips">03 · Consejos</a></li>
+                <li><a href="#contact">04 · Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+ <!-- Header / Bio -->
+<header id="about" class="hero">
+    <div class="hero-container hero-grid">
+        <!-- Columna Izquierda: Biografía y Stats -->
+        <div class="hero-text">
+            <span class="section-number">01 · SOBRE MÍ</span>
+            <h1>Mente analítica, disciplina diaria y mejora continua dentro y fuera del juego.</h1>
+            <p class="bio-text">
+                Desarrollador en formación guiado por la lógica, la estructura y la autosuperación. Mi pasión por los videojuegos va desde las historias interactivas donde la toma de decisiones revela facetas profundas de nuestra personalidad, hasta la exigencia de los juegos de disparos y rítmicos, donde disfruto analizar mis fallos diarios para afinar mis reflejos, concentración y habilidades técnicas.
+            </p>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">6+</span>
+                    <span class="stat-label">Títulos Analizados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Enfoque Analítico</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">Online</span>
+                    <span class="stat-label">Estado actual</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Columna Derecha: Tarjeta de Perfil de Steam -->
+        <div class="steam-card">
+            <div class="steam-header">
+                <div class="steam-badge">
+                    <span class="status-dot online"></span>
+                    <span>STEAM PROFILE</span>
+                </div>
+                <span class="steam-level">LVL <strong>6</strong></span>
+            </div>
+
+            <div class="steam-body">
+                <div class="steam-avatar-wrapper">
+                    <img src="https://avatars.akamai.steamstatic.com/af7e8102f39f73bdfc9726701e155aa0185e7871_full.jpg" alt="Steam Avatar" onerror="this.src='https:https://steamcommunity.com/profiles/76561198452340533/avatar.jpg'">
+                </div>
+                <div class="steam-user-info">
+                    <h3 class="steam-username">Its_Silver</h3>
+                    <span class="steam-status-text">En línea / Jugando</span>
+                    <span class="steam-location">📍 Colombia</span>
+                </div>
+            </div>
+
+            <div class="steam-showcase">
+                <span class="showcase-title">EXPOSITOR DE LOGROS</span>
+                <div class="badge-grid">
+                    <div class="badge-item" title="Survivor">🏆</div>
+                    <div class="badge-item" title="Precisión 100%">🎯</div>
+                    <div class="badge-item" title="Speedrunner">⚡</div>
+                    <div class="badge-item" title="Estratega">🧠</div>
+                </div>
+            </div>
+
+            <a href="https://steamcommunity.com/profiles/76561198452340533/" target="_blank" rel="noopener noreferrer" class="steam-btn">
+                Ver Perfil en Steam ↗
+            </a>
+        </div>
+    </div>
+</header>
+
+    <!-- 02 · Juegos Favoritos Grid -->
+    <section id="games" class="section border-top">
+        <div class="section-container">
+            <span class="section-number">02 · SELECCIÓN DE TÍTULOS</span>
+            <h2>Mis juegos favoritos</h2>
+            <div class="grid-3">
+                
+                <!-- Dying Light 2 -->
+                <div class="card card-with-img">
+                    <div class="card-img-wrapper">
+                        <img src="images/dying-light-2.jpg" alt="Dying Light 2" onerror="this.src='https://picsum.photos/400/220?random=1'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">ACCIÓN / PARKOUR</span>
+                        <h3>Dying Light 2</h3>
+                        <p>Supervivencia urbana en un mundo postapocalíptico donde el movimiento fluido por los tejados y el combate cuerpo a cuerpo son la clave.</p>
+                        
+                        <div class="gameplay-screenshots">
+                            <img src="images/dl2-1.jpg" alt="Dying Light 2 Gameplay 1" onerror="this.src='https://picsum.photos/150/100?random=11'">
+                            <img src="images/dl2-2.jpg" alt="Dying Light 2 Gameplay 2" onerror="this.src='https://picsum.photos/150/100?random=12'">
+                            <img src="images/dl2-3.jpg" alt="Dying Light 2 Gameplay 3" onerror="this.src='https://picsum.photos/150/100?random=13'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CoD Warzone -->
+                <div class="card card-with-img">
+                    <div class="card-img-wrapper">
+                        <img src="images/warzone.jpg" alt="Call of Duty Warzone" onerror="this.src='https://picsum.photos/400/220?random=2'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">FPS / BATTLE ROYALE</span>
+                        <h3>Call of Duty: Warzone</h3>
+                        <p>Partidas competitivas de alta intensidad, precisión en disparos y estrategia en equipo en mapas de gran escala.</p>
+                        
+                        <div class="gameplay-screenshots">
+                            <img src="images/wz-1.jpg" alt="Warzone Gameplay 1" onerror="this.src='https://picsum.photos/150/100?random=21'">
+                            <img src="images/wz-2.jpg" alt="Warzone Gameplay 2" onerror="this.src='https://picsum.photos/150/100?random=22'">
+                            <img src="images/wz-3.jpg" alt="Warzone Gameplay 3" onerror="this.src='https://picsum.photos/150/100?random=23'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resident Evil -->
+                <div class="card card-with-img">
+                    <div class="card-img-wrapper">
+                        <img src="images/resident-evil.jpg" alt="Resident Evil" onerror="this.src='https://picsum.photos/400/220?random=3'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">SURVIVAL HORROR</span>
+                        <h3>Saga Resident Evil</h3>
+                        <p>Atmósferas opresivas, gestión de recursos escasos y acertijos inolvidables que definieron el género del terror.</p>
+                        
+                        <div class="gameplay-screenshots">
+                            <img src="images/re-1.jpg" alt="Resident Evil Gameplay 1" onerror="this.src='https://picsum.photos/150/100?random=31'">
+                            <img src="images/re-2.jpg" alt="Resident Evil Gameplay 2" onerror="this.src='https://picsum.photos/150/100?random=32'">
+                            <img src="images/re-3.jpg" alt="Resident Evil Gameplay 3" onerror="this.src='https://picsum.photos/150/100?random=33'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Metro Exodus -->
+                <div class="card card-with-img">
+                    <div class="card-img-wrapper">
+                        <img src="images/metro-exodus.jpg" alt="Metro Exodus" onerror="this.src='https://picsum.photos/400/220?random=5'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">SURVIVAL / NARRATIVO</span>
+                        <h3>Metro Exodus</h3>
+                        <p>Una experiencia inmersiva e impactante en una Rusia postapocalíptica; conseguir su final bueno tras todo el viaje deja una huella imborrable.</p>
+                        
+                        <div class="gameplay-screenshots">
+                            <img src="images/metro-1.jpg" alt="Metro Exodus Gameplay 1" onerror="this.src='https://picsum.photos/150/100?random=51'">
+                            <img src="images/metro-2.jpg" alt="Metro Exodus Gameplay 2" onerror="this.src='https://picsum.photos/150/100?random=52'">
+                            <img src="images/metro-3.jpg" alt="Metro Exodus Gameplay 3" onerror="this.src='https://picsum.photos/150/100?random=53'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Juegos Rítmicos -->
+                <div class="card card-with-img">
+                    <div class="card-img-wrapper">
+                        <img src="images/juegos-ritmicos.jpg" alt="Juegos Rítmicos" onerror="this.src='https://picsum.photos/400/220?random=4'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">PRECISIÓN / RITMO</span>
+                        <h3>Juegos Rítmicos</h3>
+                        <p>Desafíos que exigen reflejos puros, coordinación perfecta y lectura musical a alta velocidad.</p>
+                        
+                        <div class="gameplay-screenshots">
+                            <img src="images/ritmo-1.jpg" alt="Ritmo Gameplay 1" onerror="this.src='https://picsum.photos/150/100?random=41'">
+                            <img src="images/ritmo-2.jpg" alt="Ritmo Gameplay 2" onerror="this.src='https://picsum.photos/150/100?random=42'">
+                            <img src="images/ritmo-3.jpg" alt="Ritmo Gameplay 3" onerror="this.src='https://picsum.photos/150/100?random=43'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Need For Speed Hot Pursuit -->
+                <div class="card card-with-img">
+                    <div class="card-img-wrapper">
+                        <img src="images/nfs-hot-pursuit.jpg" alt="Need for Speed: Hot Pursuit" onerror="this.src='https://picsum.photos/400/220?random=6'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">CARRERAS / ARCADIA</span>
+                        <h3>Need for Speed: Hot Pursuit</h3>
+                        <p>Persecuciones policiales a alta velocidad y carreras clandestinas al volante de superdeportivos exóticos en las carreteras de Seacrest County.</p>
+                        
+                        <div class="gameplay-screenshots">
+                            <img src="images/nfs-1.jpg" alt="NFS Hot Pursuit Gameplay 1" onerror="this.src='https://picsum.photos/150/100?random=61'">
+                            <img src="images/nfs-2.jpg" alt="NFS Hot Pursuit Gameplay 2" onerror="this.src='https://picsum.photos/150/100?random=62'">
+                            <img src="images/nfs-3.jpg" alt="NFS Hot Pursuit Gameplay 3" onerror="this.src='https://picsum.photos/150/100?random=63'">
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- Cierre correcto de .grid-3 -->
+        </div>
+    </section>
+
+    <!-- 03 · Pro Tips -->
+<section id="tips" class="section border-top">
+    <div class="section-container">
+        <span class="section-number">03 · PRO TIPS</span>
+        <h2>Filosofía de mejora y dominio</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3>01. Análisis de fallos sobre frustración</h3>
+                <p>En los shooters y juegos de precisión, cada baja recibida o tiro fallado es un dato. Evaluar el error técnico o la mala posición es el único camino para evolucionar la memoria muscular y la estrategia diaria.</p>
+            </div>
+            <div class="card">
+                <h3>02. Decisiones con convicción</h3>
+                <p>En las historias interactivas, no busques la "opción perfecta". Elige según tus principios en momentos límite; la consecuencia no solo enriquece la narrativa, sino que te revela facetas reales de tu personalidad.</p>
+            </div>
+            <div class="card">
+                <h3>03. Ritmo y memoria muscular</h3>
+                <p>La velocidad no se fuerza, se construye. En los juegos rítmicos y de alta exigencia, la repetición constante y el enfoque en la sincronía desarrollan reflejos automáticos que superan la reacción consciente.</p>
+            </div>
+            <div class="card">
+                <h3>04. Saber cuándo pausar (Reset mental)</h3>
+                <p>Si la frustración te frena, no insistas en caliente. Tómate un descanso, sal a despejar la mente, camina un poco y toma agua. Volver con la mente fresca restaura tus reflejos y te da la claridad que el enojo te quita.</p>
+            </div>
+            <div class="card">
+                <h3>05. Disciplina y constancia</h3>
+                <p>Tanto en el desarrollo de software como en el rendimiento en pantalla, la mejora no ocurre en sesiones maratónicas aisladas, sino en la acumulación de pequeñas correcciones hechas todos los días.</p>
+            </div>
+            <div class="card">
+                <h3>06. Optimización del entorno y herramientas</h3>
+                <p>El rendimiento depende tanto de ti como de tu equipo. Mantener tu espacio ordenado, tu hardware limpio y tus herramientas digitales a punto elimina fricciones técnicas para que tu enfoque sea 100% mental.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- 04 · Contacto -->
+    <section id="contact" class="section border-top">
+        <div class="section-container">
+            <span class="section-number">04 · CONTACTO</span>
+            <h2>Conectemos</h2>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensaje enviado');">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Correo Electrónico" required>
+                <textarea placeholder="Tu Mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Modal Emergente con Video de YouTube y Galería -->
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <span class="card-tag" id="modal-tag">CATEGORÍA</span>
+            <h2 id="modal-title">Título del Juego</h2>
+            <p id="modal-description">Descripción detallada...</p>
+            
+            <div class="modal-stats">
+                <div><strong>Horas jugadas:</strong> <span id="modal-hours">-</span></div>
+                <div><strong>Plataforma:</strong> <span id="modal-platform">-</span></div>
+                <div><strong>Nota personal:</strong> <span id="modal-rating">-</span></div>
+            </div>
+
+            <!-- Video de YouTube -->
+            <span class="section-number" style="margin-top:1.5rem; display:block;">GAMEPLAY TRAILER / CLIP</span>
+            <div class="modal-video-container">
+                <iframe id="modal-video" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <!-- Galería de Capturas -->
+            <span class="section-number" style="margin-top:1.5rem; display:block;">CAPTURAS DE GAMEPLAY</span>
+            <div class="modal-gallery" id="modal-gallery"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
